@@ -1,5 +1,27 @@
-<h1>Angular routing Sample</h1>
-<tb-search-bus></tb-search-bus>
-<tb-bus-list></tb-bus-list>
-<tb-seat-selection></tb-seat-selection>
-<tb-passenger-information></tb-passenger-information>
+
+<mat-toolbar color="primary" class="mat-elevation-z6">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>Bus Ticketing System</span>
+  <span class="example-spacer"></span>
+  <a mat-button routerLink="">Search Bus</a>
+<br>
+<a mat-button routerLink="bus-list">Bus List</a>
+<br>
+<a mat-button routerLink="seat-selection">Seat Selection</a>
+<br>
+<a mat-button routerLink="passenger-information">Passenger Information</a>
+<br>
+  
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+    <mat-icon>share</mat-icon>
+  </button>
+</mat-toolbar>
+
+
+
+<router-outlet></router-outlet>

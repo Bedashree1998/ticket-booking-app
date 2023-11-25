@@ -1,0 +1,22 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  .example-full-width {
+    width: 100%;
+  }
+  .to-fro{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .mat-card{
+    align-items: center;
+
+  }
+  .example-button-row{
+    margin: 8px 8px 8px 0;
+
+  }

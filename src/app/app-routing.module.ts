@@ -6,7 +6,7 @@ import { SeatSelectionComponent } from './seat-selection/seat-selection.componen
 import { PassengerInformationComponent } from './passenger-information/passenger-information.component';
 
 const routes: Routes = [
-  {path: 'search-bus', component: SearchBusComponent},
+  {path: '', component: SearchBusComponent},
 {path: 'bus-list', component: BusListComponent},
 {path: 'seat-selection', component: SeatSelectionComponent},
 {path: 'passenger-information', component: PassengerInformationComponent},
